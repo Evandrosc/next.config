@@ -9,7 +9,8 @@ import {
   UserInfo,
   UserInfo2,
   Charts,
-  Quizz
+  Quizz,
+  Finish
 } from "@/modules/components/pages";
 import { AnimatePresence, motion } from "framer-motion";
 import { Generating } from "@/modules/components/pages/Generating";
@@ -24,7 +25,8 @@ export default function Home() {
     userInfo2: <UserInfo2 handlePageUpdate={setPage} />,
     charts: <Charts handlePageUpdate={setPage} />,
     quizz: <Quizz handlePageUpdate={setPage} />,
-    generating: <Generating handlePageUpdate={setPage} />
+    generating: <Generating handlePageUpdate={setPage} />,
+    finish: <Finish />
   };
 
   useEffect(() => {

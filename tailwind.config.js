@@ -14,6 +14,7 @@ module.exports = {
         primary: colors.violet,
         "theme-orange": "#df711a",
         "theme-light-blue": "#64CACF",
+        "theme-cyan": "#4FB6BB",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
