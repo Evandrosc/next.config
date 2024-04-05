@@ -77,8 +77,7 @@ const Finish = () => {
               <div
                 className={`
                   ${index === 2 && 'mr-[1.625rem]'} 
-                  ${index === 1 && 'flex-row-reverse'}
-                  ${index === 1 ? 'justify-end gap-3' : 'justify-between'} 
+                  ${index === 1 ? 'flex-row-reverse justify-end gap-3' : 'justify-between'} 
                   flex rounded-[11px] h-[121px] max-w-[334px] bg-white overflow-hidden
                   `
                 }
