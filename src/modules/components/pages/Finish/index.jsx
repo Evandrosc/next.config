@@ -30,7 +30,7 @@ const results7Day = [
   'Redução de de gordura corporal',
 ]
 
-const acess = [
+const access = [
   'Plano alimentar de 7 dias',
   'Suporte para dúvidas',
   'Grupo de acompanhamento com dicas para atingir resultados mais rápidos',
@@ -147,7 +147,7 @@ const Finish = () => {
         />
         <h2 className='text-xl text-center font-bold leading-[25.2px] mb-[17px]'> O que você <br /> <strong className='text-theme-orange'>terá acesso?</strong></h2>
         <ul className='flex flex-col gap-[10px]'>
-          {acess.map((result, index) => (
+          {access.map((result, index) => (
             <li
               key={index}
               className='flex items-center gap-[10px] font-medium text-[clamp(13px,4vw,14px)]'
